@@ -113,6 +113,38 @@ nav ul li a {
     margin-top: 15px;
 
 }
+
+#features{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 1.4vmax;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.title-text p::after{
+    content: '';
+    width: 3vmax;
+    height: 2vmax;
+    background: linear-gradient(#019587,#fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.title-text h1{
+    font-size: 3vmax;
+}
 @media screen and (max-width: 770px) {
     .banner-btn a{
         display: block;
