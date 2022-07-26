@@ -36,10 +36,12 @@
     font-size: 1.1vmax;
     font-style: italic;
 }
-.banner-btn{
+
+.banner-btn {
     margin: 70px auto 0;
 }
-.banner-btn a{
+
+.banner-btn a {
     width: 150px;
     text-decoration: none;
     display: inline-block;
@@ -51,7 +53,8 @@
     z-index: 1;
     transition: color 0.5s ease-out;
 }
-.banner-btn a span{
+
+.banner-btn a span {
     z-index: -1;
     width: 0;
     /* display: none; */
@@ -62,13 +65,16 @@
     left: 0;
     transition: 0.5s
 }
-.banner-btn a:hover span{
-width: 100%;
+
+.banner-btn a:hover span {
+    width: 100%;
 }
-.banner-btn a:hover{
+
+.banner-btn a:hover {
     color: black;
 }
-#sideNav{
+
+#sideNav {
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -77,15 +83,18 @@ width: 100%;
     background: #009688;
     z-index: 2;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 50px 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
 }
-#menuBtn{
+
+#menuBtn {
     width: 50px;
     height: 50px;
     background: #009688;
@@ -97,7 +106,8 @@ nav ul li a{
     z-index: 3;
     cursor: pointer;
 }
-#menuBtn img{
+
+#menuBtn img {
     width: 20px;
     margin-top: 15px;
 
