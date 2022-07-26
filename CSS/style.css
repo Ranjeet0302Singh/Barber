@@ -124,7 +124,7 @@ nav ul li a {
 }
 .title-text p{
     margin: auto;
-    font-size: 1.4vmax;
+    font-size: 2vmax;
     color: #009688;
     font-weight: bold;
     position: relative;
@@ -133,20 +133,20 @@ nav ul li a {
 }
 .title-text p::after{
     content: '';
-    width: 3vmax;
-    height: 2vmax;
+    width: 5vmax;
+    height: 3vmax;
     background: linear-gradient(#019587,#fff);
     position: absolute;
-    top: -1.025vmax;
+    top: -1.7vmax;
     left: 0;
     z-index: -1;
     transform: rotate(10deg);
-    border-top-left-radius: 2vmax;
-    border-bottom-right-radius: 2vmax;
+    border-top-left-radius: 3.5vmax;
+    border-bottom-right-radius: 3.5vmax;
 
 }
 .title-text h1{
-    font-size: 3vmax;
+    font-size: 4vmax;
 }
 
 .feature-box{
