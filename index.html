@@ -25,7 +25,7 @@
         </div>
       </div>
     </section>
-    <div class="sideNav">
+    <div id="sideNav">
       <nav>
         <ul>
           <li><a href="">Home</a></li>
@@ -43,9 +43,9 @@
       var menuBtn = document.getElementById("menuBtn");
       var sideNav = document.getElementById("sideNav");
       var menu = document.getElementById("menu");
-      menuBtn.onclick = function () {
+      menuBtn.onclick = function() {
         if (sideNav.style.right == "-250px") {
-          sideNav.style.right = "0";
+             sideNav.style.right = "0";
         } 
         else {
           sideNav.style.right = "-250px";
