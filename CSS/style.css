@@ -197,9 +197,9 @@ border: 1px solid #009688;
         display: block;
         margin: 20px auto;
     }
-    .title-text h1{
+    /* .title-text h1{
         font-size: 3vmax;
-    }
+    } */
     .features{
         flex-basis: 100%;
     }
