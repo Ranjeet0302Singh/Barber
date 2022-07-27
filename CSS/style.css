@@ -395,4 +395,7 @@ transform: translate(-50%,-50%);
     .footer-left,.footer-right{
         flex-basis: 100%;
     }
+    .footer-img{
+        top:55%
+    }
 }
